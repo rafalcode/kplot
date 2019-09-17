@@ -7,6 +7,13 @@ repository of the project.
 To keep up to date with the current stable release of kplot, visit the
 [kplot website](https://kristaps.bsd.lv/kplot).
 
+## Fork rationale
+Primarily concerned about the serif fonts which I'm not a fan of.
+Cairo isn't great on fonts, but I think it can manage nonserif.
+plotctx() doesn't seem to be documented, but surely there's a way to change
+font size. 
+Check for how this would affect buffer sizes.
+
 ## Code Example
 
 Interfacing with kplot is fairly easy.
